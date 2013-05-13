@@ -11,6 +11,11 @@
 
 <body>
      <form id="form1" runat="server">
+         <asp:scriptmanager ID="ScriptManager1"  runat="server">
+    <Services>
+        <asp:ServiceReference Path="~/Webservices/NameService.svc" />
+    </Services>
+    </asp:scriptmanager>
        
             <header><h1>Cheryl Croshaw ASP.NET Website in Windows Azure
                     </h1></header>
@@ -25,7 +30,9 @@
 
          <asp:SiteMapDataSource ID="web" runat="server" ShowStartingNode="False" />
  
-         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="web" CssClass="TreeViewLeft" ShowExpandCollapse="False" Width="150px">
+         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="web" CssClass="TreeViewLeft" ShowExpandCollapse="False" Width="150px" EnableTheming="False" BackColor="#00CC99">
+             <LeafNodeStyle BackColor="#00CC99" />
+             <NodeStyle BackColor="#00CC99" />
                     </asp:TreeView>
                     
                    

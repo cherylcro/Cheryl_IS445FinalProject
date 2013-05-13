@@ -53,6 +53,7 @@ p.singleline {
 .TreeViewLeft {
     width: 160px;
     float: left;
+    background-color:#00cc99;
 }
 
 #MainContent {
@@ -107,6 +108,13 @@ h3 {
     font-size:x-large;
     font-weight:bold;
     font-style: italic;
+}
+p1 {
+    text-align:left;
+    padding-left:10px;
+    color:white;
+    font-weight:400;
+    text-indent:each-line,10px;
 }
 #NumDivision {
     text-align:left;
