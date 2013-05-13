@@ -1,0 +1,37 @@
+﻿body {
+   background-color:#00cc99; 
+   margin:auto;
+   width:900px;
+   text-align:center;
+   color:white;
+}
+#cpMainContent {
+     background-color:#00cc99; 
+}
+section {
+    padding:10px;
+    width:450px;
+    background-color:pink;
+    height:200px;
+}
+article {
+    padding-top:15px;
+    padding-bottom:5px;
+    width:450px;
+    background-color:brown;
+    height:50px;
+    }
+aside {
+    position:absolute;
+    left:831px;
+    top:181px;
+    width:200px;
+    background-color:cyan;
+    height:220px;
+}
+footer {
+    background-color:green;
+    height:30px;
+}
+
+}

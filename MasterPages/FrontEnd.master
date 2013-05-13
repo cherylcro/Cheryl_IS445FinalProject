@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" CodeFile="FrontEnd.master.vb" Inherits="MasterPages_FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cheryl Croshaw - Demo Website</title>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+     <form id="form1" runat="server">
+       
+            <header><h1>Cheryl Croshaw ASP.NET Website in Windows Azure
+                    </h1></header>
+         <p class="singleline"</p>
+      <nav>
+         <asp:menu id="MainMenu" runat="server" datasourceid="web" disappearafter="200" orientation="Horizontal" CssClass="level1" DynamicEnableDefaultPopOutImage="False">
+              </asp:menu><br />
+          </nav>
+
+         <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+            </asp:SiteMapPath>
+
+         <asp:SiteMapDataSource ID="web" runat="server" ShowStartingNode="False" />
+ 
+         <asp:TreeView ID="TreeView1" runat="server" DataSourceID="web" CssClass="TreeViewLeft" ShowExpandCollapse="False" Width="150px">
+                    </asp:TreeView>
+                    
+                   
+
+               
+
+    <section id="MainContent">
+         <asp:ContentPlaceHolder ID="cpMainContent" runat="server" ClientIDMode="Inherit" ViewStateMode="Disabled"></asp:ContentPlaceHolder>
+                    
+         </section>
+               
+         
+    </form>
+    
+</body>
+</html>

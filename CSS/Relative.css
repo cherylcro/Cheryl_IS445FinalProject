@@ -1,0 +1,42 @@
+﻿body { margin:auto;
+   width:900px;
+   text-align:center;
+   color:white;
+}
+header {
+  background-color:blue;
+  height:50px;
+}
+nav {
+    background-color:green;
+    height:30px;
+}
+section {
+    padding:10px;
+    width:600px;
+    background-color:pink;
+    height:200px;
+}
+article {
+    padding-top:15px;
+    padding-bottom:5px;
+    width:600px;
+    background-color:brown;
+    height:50px;
+    }
+aside {
+    position:relative;
+    left:620px;
+    top:-220px;
+    width:280px;
+    background-color:cyan;
+    height:220px;
+}
+footer {
+    position:relative;
+    top:-220px;
+    background-color:green;
+    height:30px;
+}
+
+
