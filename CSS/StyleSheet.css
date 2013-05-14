@@ -69,7 +69,11 @@ p.singleline {
 Section#cpMainContent {
     background-color:#00cc99;
 }
+#TextBox1 {
+    margin-left:auto;
+   margin-right:auto;
 
+}
 
 h1 {
     text-align: center;
